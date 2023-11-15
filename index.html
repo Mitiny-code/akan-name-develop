@@ -66,16 +66,27 @@
 
             </div>
             <div id="div3">
-                <h3>Fill in to generate your Akan name</h3>
-                <p>Year of birth</p>
+                <h3>Fill in to generate your Akan name:</h3>
+                <div>
+                <label for="year">Year of birth</label>
                 <input type="text" name="Example:1996" placeholder="Example: 1996"/>
-                <p>Month</p>
+                </div>
+                <label for="month">Month</label>
                 <input type="text" name="Example:Nov=11, June=6" placeholder="Example: Nov=11, June=6"/>
-                <p>Date</p>
+                <div>
+                <label for="date">Date</label>
                 <input type="text" name="Example:25" placeholder="Example:25"/>
-                
-
-            
+                </div>
+                <p>Select your gender</p>
+                <input type="radio" id="female" name="gender" value="Female"/>
+                <label for="female">Female</label>
+            <div>
+                <input type="radio" id="male" name="gender" value="Male"/>
+                <label for="male">Male</label>
+            </div>
+            </div>
+            <div>
+                <button class="submit-button">Submit</button>
             </div>
         </div>
     <script>
