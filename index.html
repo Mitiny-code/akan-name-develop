@@ -66,20 +66,20 @@
             <div id="form-wrapper">
                 <h3>Fill in to generate your Akan name:</h3>
 
-                <form onsubmit="generateAkanName()">
+                <form id="akanform" onsubmit="generateAkanName()">
                     <div class="form-input">
                          <label for="year">Year of birth</label>
-                        <input type="number" name="year_of_birth" placeholder="Example: 1996"/>
+                        <input id="year" type="number" name="year_of_birth" placeholder="Example: 1996"/>
                     </div>
 
                     <div class="form-input">
                          <label for="month">Month</label>
-                         <input type="number" name="month" placeholder="Example: Nov=11, June=6"/>
+                         <input id="month" type="number" name="month" placeholder="Example: Nov=11, June=6"/>
                     </div>
 
                     <div class="form-input">
                         <label for="day">Day</label>
-                        <input type="number" name="day" placeholder="Example:25"/>
+                        <input id="day" type="number" name="day" placeholder="Example:25"/>
                     </div>
 
                     <label class="label">Select your gender</label>
