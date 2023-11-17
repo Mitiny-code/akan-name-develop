@@ -10,20 +10,18 @@
     </head>
     <body>
         <h2>Akan Name Generator</h2>
-        <p id="paragraph1">
+        <p class="description">
             In many parts of Ghana, and elsewhere in West Africa, a person's name is determined
-            by the day of the week on which <br> she/he was born.
-        </p>
-        <p id="paragraph2">
+            by the day of the week on which <br> she/he was born.<br>
             Enter your birthday and gender below to read your day name in Ashanti Twi, a dialect
             of Akan and the most widely spoken <br> language in Ghana.
         </p>
 
-        <div id="div1">
-            <div id="div2">
+        <div id="content-wrapper">
+            <div class="table-wrapper">
                 <table>
                     <tr>
-                        <th>Day of the week</th>
+                        <th>Day of the Week</th>
                         <th>Female Name</th>
                         <th>Male Name</th>
                     </tr>
@@ -65,41 +63,45 @@
                 </table>
 
             </div>
-            <div id="div3">
+            <div id="form-wrapper">
                 <h3>Fill in to generate your Akan name:</h3>
 
-                <div id="div4">
-                <label for="year">Year of birth</label>
-                <input type="number" name="Example:1996" placeholder="Example: 1996"/>
-                </div>
+                <form>
+                    <div class="form-input">
+                         <label for="year">Year of birth</label>
+                        <input type="number" name="year_of_birth" placeholder="Example: 1996"/>
+                    </div>
 
-                <div id="div5">
-                <label for="month">Month</label>
-                <input type="number" name="Example:Nov=11, June=6" placeholder="Example: Nov=11, June=6"/>
-                </div>
+                    <div class="form-input">
+                         <label for="month">Month</label>
+                         <input type="number" name="month" placeholder="Example: Nov=11, June=6"/>
+                    </div>
 
-                <div id="div6">
-                <label for="date">Date</label>
-                <input type="number" name="Example:25" placeholder="Example:25"/>
-                </div>
+                    <div class="form-input">
+                        <label for="day">Day</label>
+                        <input type="number" name="day" placeholder="Example:25"/>
+                    </div>
 
-                <p id="paragraph3">Select your gender</p>
+                    <label class="label">Select your gender</label>
 
-                <div id="div7">
-                <input type="radio" id="female" name="gender" value="Female"/>
-                <label for="female">Female</label>
-                </div>
+                    <div class="form-input">
+                        <input type="radio" id="female" name="gender" value="Female"/>
+                        <label for="female">Female</label>
+                    </div>
 
-            <div id="div8">
-                <input type="radio" id="male" name="gender" value="Male"/>
-                <label for="male">Male</label>
-            </div>
-            
-            <div id="div9">
-                <button onclick="submit-button">Submit</button>
+                    <div class="form-input">
+                        <input type="radio" id="male" name="gender" value="Male"/>
+                        <label for="male">Male</label>
+                    </div>
+                    
+                    
+                        <button type="submit" class="btn btn-secondary" onclick="submit-button">Submit</button>
+                    
+
+                </form>
+    
             </div>
         </div>
-
     <script src="./script.js"></script>
 
     </body>
