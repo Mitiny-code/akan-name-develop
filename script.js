@@ -1,6 +1,5 @@
 //function
-//getValues
-//output
+//getValue//output
 
 let generateAkanName = function() {
     const year = document.getElementById("year").value;

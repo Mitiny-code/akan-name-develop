@@ -1,5 +1,70 @@
 body {
-    margin: 2px;
+    margin: 6px;
+    background-color:beige;
+    text-align: center;
+    border-radius: 40px;
+    font-family: cursive;
+    /* padding: auto; */
+
+}
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
     background-color: beige;
     justify-content: center;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.description {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    padding-left: 10px;
+
+}
+#content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 270%;
+}
+.table-wrapper {
+    text-align: left;
+    background-color: azure;
+    max-height: 270%;
+
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#form-wrapper {
+    background-color: azure;
+    line-height: 400%;
+
+}
+.form-input {
+    width: 100%;
+
+}
+button {
+    background-color: rgb(90, 90, 90);
+    color: beige;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 90%;
+    line-height: 180%;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: black;
+}
+label {
+    width: 100%;
+    background-color: green;
 }
